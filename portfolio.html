@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio - FolioOne Bootstrap Template</title>
+  <title>Portfolio - Gizem Oz</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -53,33 +53,20 @@
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html" class="active">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+          <li><a href="more-about-me.html">More About Me</a></li>
+
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <!--<a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>-->
+        <a href="https://github.com/gzmoz" class="instagram"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/gizem-oz/" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
@@ -93,141 +80,89 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <p>You can explore my projects below. Hovering over a project reveals the GitHub link with further details.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <ul class="portfolio-filters isotope-filters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-strategy">Strategy</li>
-            <li data-filter=".filter-finance">Finance</li>
-            <li data-filter=".filter-operations">Operations</li>
-            <li data-filter=".filter-technology">Technology</li>
+            <li data-filter=".filter-kotlin">Kotlin</li>
+            <li data-filter=".filter-flutter">Flutter</li>
+            <li data-filter=".filter-completed">Completed</li>
+            <li data-filter=".filter-progress">In Progress</li>
+          </ul>
+
           </ul><!-- End Portfolio Filters -->
 
+
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kotlin filter-completed">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-1.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/memorease.png" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-1.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/portfolio/memorerase.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://github.com/gzmoz/memorease-ai-quiz-app" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Business Growth Strategy</h4>
-                  <p>Strategic Planning</p>
+                  <h4>MemorEase</h4>
+                  <p>MemorEase is an Android application developed with Kotlin, designed to help users preserve and share their memories, utilizing AI-generated questions. The app features a unique dual-user structure: individuals can save
+                  their memories, while relatives can contribute and view them with a dedicated interface. Firebase services and Hugging Face AI models are used for memory management and smart quiz generation.</p>
                   <div class="portfolio-tags">
-                    <span>Strategy</span>
-                    <span>Consulting</span>
+                    <span>Kotlin</span>
+                    <span>Completed</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kotlin filter-completed">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-2.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/mysteralis.png" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/portfolio/mysteralis.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://github.com/gzmoz/Mysteralis" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Financial Restructuring</h4>
-                  <p>Financial Advisory</p>
+                  <h4>Mysteralis</h4>
+                  <p>Mysteralis is a modern Android application that blends NASA’s open data with AI technologies and live astronomical visuals. It allows users to explore daily space pictures, read astronomy news, ask AI-driven space
+                  questions, and observe the sky in real-time.</p>
                   <div class="portfolio-tags">
-                    <span>Finance</span>
-                    <span>Investment</span>
+                    <span>Kotlin</span>
+                    <span>Completed</span>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-operations">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-flutter filter-progress">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-3.webp" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/pawnav.png" alt="Portfolio Item" class="img-fluid">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-3.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="assets/img/portfolio/pawnav.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
                     <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Supply Chain Optimization</h4>
-                  <p>Operations Management</p>
+                  <h4>PawNav</h4>
+                  <p>Developing a Flutter-based mobile app that allows users to post and find lost, found, or adoptable animals, using image processing to enhance photo-based listings and search.</p>
                   <div class="portfolio-tags">
-                    <span>Operations</span>
-                    <span>Logistics</span>
+                    <span>Flutter</span>
+                    <span>In Progress</span>
+                    
                   </div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-technology">
-              <div class="portfolio-card">
-                <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-4.webp" alt="Portfolio Item" class="img-fluid">
-                  <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
-                  </div>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Digital Transformation</h4>
-                  <p>Technology Consulting</p>
-                  <div class="portfolio-tags">
-                    <span>Technology</span>
-                    <span>Innovation</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
-              <div class="portfolio-card">
-                <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Item" class="img-fluid">
-                  <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
-                  </div>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Market Expansion</h4>
-                  <p>Strategic Planning</p>
-                  <div class="portfolio-tags">
-                    <span>Strategy</span>
-                    <span>Growth</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
-              <div class="portfolio-card">
-                <div class="portfolio-img">
-                  <img src="assets/img/portfolio/portfolio-6.webp" alt="Portfolio Item" class="img-fluid">
-                  <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
-                  </div>
-                </div>
-                <div class="portfolio-info">
-                  <h4>Investment Strategy</h4>
-                  <p>Financial Advisory</p>
-                  <div class="portfolio-tags">
-                    <span>Finance</span>
-                    <span>Investment</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Portfolio Items Container -->
+            <!-- End Portfolio Items Container -->
 
         </div>
 
@@ -247,12 +182,7 @@
       <div class="copyright text-center ">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">FolioOne</strong> <span>All Rights Reserved<br></span></p>
       </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
+      
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->

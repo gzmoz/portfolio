@@ -918,6 +918,14 @@ section,
   background: color-mix(in srgb, var(--accent-color), black 10%);
 }
 
+/* Skill descriptions under progress bars */
+.skill-desc {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 8px;
+}
+
 
 @media (max-width: 992px) {
   .hero .hero-image .floating-elements .floating-card {
@@ -2803,6 +2811,15 @@ section,
   height: 100%;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
 }
+
+/* Portfolio cards equal height */
+.portfolio-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
 
 @media (max-width: 992px) {
   .contact .contact-form {
